@@ -1,1 +1,0 @@
-spawnpoint "s_f_y_scrubs_01" { x = -774.14, y = 307.75, z = 85.7 }
