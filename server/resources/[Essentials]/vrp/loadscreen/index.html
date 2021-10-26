@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <div id="displayLogo"></div>
+  </title>
+  <meta content=""
+        name="description">
+  <meta content=""
+        name="author">
+  <meta content=""
+        name="keywords">
+  <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"
+        name="viewport">
+  <link href="css/bootstrap.min.css"
+        media="all"
+        rel="stylesheet"
+        type="text/css">
+  <link href="css/style-dark.css"
+        media="all"
+        rel="stylesheet"
+        type="text/css">
+  <link href="css/css.css"
+        rel="stylesheet">
+  <link href="css/fontawesome-all.min.css"
+        media="all"
+        rel="stylesheet"
+        type="text/css">
+  <link href="css/colors/yellow-2.css"
+        media="screen"
+        rel="stylesheet"
+        title="yellow-2"
+        type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CDosis:200,300,400,500,600,700,800%7COswald:300,400,700%7CMontserrat:400,700" 
+        rel="stylesheet"
+        type="text/css">
+<!--Esta letra da muchisimo por culo-->
+</head>
+
+<body>
+
+  <div class="logo">
+  <img src="https://cdn.discordapp.com/attachments/621759945800548362/881967166910504980/png.png" id="logo" width="424px" height="424px" top="50px" />
+  </div>
+<!--  <div class="film-grain"></div> -->
+
+
+  <div id="preloader">
+    <div id="preloader-status">
+      <div class="preloader-position preloader-effect">
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div
+   class="hero-fullscreen hero-bg">
+    <div class="slide-YT hero-fullscreen">
+      <div class="slide bg-img-YT"></div>
+      <div id="videoContainment"></div><a class="player"
+         data-property="{videoURL:'jFRg47d4INc', mute:true, showControls:false, quality:'default', opacity:1, containment:'#videoContainment', optimizeDisplay:true, loop:true, startAt:7, autoPlay:true, showYTLogo:false, addRaster:false, realfullscreen:true}"
+         id="bgndVideo"></a>
+    </div>
+    <div class="preload-content"></div>
+  </div>
+  <div class="menu-trigger top-position"
+       id="menu">
+    <button class="lines-button minus menu-toggle"
+            id="main-menu-caller"
+            type="button"><span class="lines"></span></button>
+  </div>
+  <svg id="cursor"
+       width="20"
+       height="20">
+    <defs>
+      <linearGradient id="gradient"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1">
+        <stop offset="0%"
+              stop-color="#FF0000"></stop>
+        <stop offset="100%"
+              stop-color="#da1b60"></stop>
+      </linearGradient>
+    </defs>
+    <circle r="13"
+            cx="15"
+            cy="15"
+            fill="none"></circle>
+    <line x1="0"
+          y1="0"
+          x2="30"
+          y2="30"></line>
+    <line x1="0"
+          y1="30"
+          x2="30"
+          y2="0"></line>
+  </svg>
+  <div id="ui-layer">
+    <div id="menu-wrapper">
+      <div id="main-menu">
+        <div class="menu-nav-wrapper">
+          <nav class="menu-nav">
+            <ul class="brackets">
+              <li class="menu">
+                <a class="menu-state active"
+                   href="#"
+                   id="fire-home">Inicio</a>
+              </li>
+              <li class="menu">
+                <a class="menu-state"
+                   href="#"
+                   id="fire-services">Regras</a>
+              </li>
+              <li class="menu">
+                <a class="menu-state"
+                   href="#"
+                   id="fire-contact">Staff</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="upper-page current"
+       id="home">
+    <div class="logo top-position"></div>
+
+    <div class="line-left left-position"></div>
+
+    <div class="line-right right-position">
+      <a href="#" id="nombre"> Bem Vindo</a>
+    </div>
+
+    <!-- <div class="transparent-borders OFF"></div> -->
+    <div class="center-container-home">
+
+      <div class="center-block-home">
+
+        <div class="upper-content">
+
+          <div class="container sections">
+
+            <div class="row">
+
+              <div class="fin-wrapper introduction">
+
+                <div class="fin-slides-wrapper">
+                  <ul class="fin-slides">
+                    <li>
+                      <h3>
+                        Cidade com temática própria<hr>
+                      </h3>
+                    </li>
+                    <li>
+                      <h3>
+                        HARD ROLEPLAY<hr>
+                      </h3>
+                    </li>
+                    <li>
+                      <h3>
+                        Americano<hr>
+                      </h3>
+                    </li>
+                  </ul>
+                </div>               
+                <div class="fin-heading">
+                  
+                  </h1>
+                </div>
+                <div class="fin-subheading">
+                  &middot; ROLEPLAY &middot;                              
+                    <audio id='muzica' volume='0.6' autoplay controls>
+                  
+                            <source src="musica/musica.mp3" type="audio/mpeg">
+                            Browser-ul tau nu suporta acest tip de fisier.
+                            
+                          </audio>
+                          <script>
+                                var audio = document.getElementById("muzica");
+                                audio.volume = 0.2;
+                              </script>             
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lower-page"
+       id="services">
+
+    <div class="center-container">
+
+      <div class="center-block">
+
+        <div class="lower-content">
+
+          <div class="container sections">
+
+            <div class="row">
+              <h2>
+                REGRAS <span class="get-behind">REGRAS</span>
+              </h2>
+            </div>
+
+            <div class="row">
+
+              <div class="dividerOT"></div><!-- divider end -->
+            </div>
+
+            <div class="services-columns">
+
+              <div class="row">
+                <div class="col-md-6 services-padding mb40">
+                  <h5>
+                    <span class="awesome">Meta</span>Gaming
+                  </h5>
+                  <p>
+                    &middot; Proibido Meta Gaming, StreamSniping (Ghost) ou qualquer maneira que possa se manifestar de forma ilegal
+                    .<br> &middot; É de extrema importância ler todas as regras no site
+                    , respeito e educação. <br> &middot; Respeite o RP dos outros jogadores,
+                    caso precise de ajuda chame pelo Discord.
+                  </p>
+                </div>
+                <div class="col-md-6 services-padding border-left-services mb40">
+                  <h5>
+                    <span class="awesome">Power</span> Gaming
+                  </h5>
+                  <p>
+                    &middot; É proibido subir montanhas com veiculos que não possuem força 
+                    ou fogem da realidade. <br> &middot; Proibido saltar com veiculos ( Barreiras, paredes, água etc),
+                     quando estiver fugindo da policia <br> &middot; Quando estiver
+                    fugindo da Policia pela cidade.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 services-padding border-top-services mt40">
+                  <h5>
+                    <span class="awesome">Anti</span> roleplay
+                  </h5>
+                  <p>
+                    &middot; A cidade não possui Zonas seguras, vai do bom senso de cada jogador interpretar e
+                    moderadamente respeitar. <br> &middot; É proibido chamar o jogador pelo ID ou um número que vier
+                    na cabeça <br> &middot; É proibido ficar capotando o veiculo várias vezes.
+                    ( Leia as Regras )
+                  </p>
+                </div>
+                <div class="col-md-6 services-padding border-left-services border-top-services mt40">
+                  <h5>
+                    <span class="awesome">VDM</span> RDM
+                  </h5>
+                  <p>
+                    &middot; É Proibido matar o jogador se isso não condiz com a sua ação, disparar na outra pessoa.
+                    Tente conversar, um bom diálogo pode resolver a situação. <br> &middot; É proibido atirar em um 
+                    refem, qunado ele estiver colaborando. <br>&middot; É proibido atropelar um player,
+                    nem com motivo mesmo por diversão. Se acontecer o player será sentênciado a penalidade  
+                    de Ban Permanente. <br>&middot; Depois de comprar Helicóptero é proibido estacionar o
+                    Heliportos e Aeroportos, O desembarque na rua resultada em expulsão!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lower-page"
+       id="contact">
+
+    <div class="center-container">
+
+      <div class="center-block">
+
+        <div class="lower-content">
+
+          <div class="container sections">
+
+            <div class="row">
+              <h2>
+                Staff <span class="get-behind">EQUIPE DE ADMINISTRAÇÃO</span>
+              </h2>
+            </div>
+
+            <div class="row">
+
+              <div class="dividerOT"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+                <p>
+                  Juniinhoo<br>
+                  <a>Programador</a>
+                </p>
+              </div>
+              <div class="col-md-4">
+                <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+                <p>
+                  Bruxo <br>
+                  <a>Sócio</a>
+                </p>
+              </div>
+              <div class="col-md-4">
+                <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+                <p>
+                  Geral<br>
+                  <a>Staff</a>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+          type="text/javascript"></script>
+  <script src="js/plugins.js"
+          type="text/javascript"></script>
+  <script src="js/main.js"
+          type="text/javascript"></script>
+</body>
+
+</html>

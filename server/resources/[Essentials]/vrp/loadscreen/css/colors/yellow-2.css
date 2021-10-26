@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+color: rgb(9, 16, 34);
+}
+
+p a {
+color: rgb(9, 16, 34);
+}
+
+#main-menu {
+background: rgba(226, 1, 45, 0.95);
+border: 20px solid rgb(9, 16, 34);
+}
+
+.color-me {
+color: rgb(9, 16, 34);
+}
+
+.awesome {
+color: rgb(9, 16, 34);
+}
+
+@-webkit-keyframes glow {
+    0% {
+		border-color: #e2012d;
+		/* box-shadow: 0 0 5px rgba(0,0,0, .2), inset 0 0 5px rgba(0,0,0, .1); */
+    }	
+    100% {
+		border-color: rgb(9, 16, 34);
+		/* box-shadow: 0 0 20px rgba(0,0,0, .6), inset 0 0 10px rgba(0,0,0, .4); */
+    }
+}
+@-moz-keyframes glow {
+    0% {
+		border-color: rgb(226, 1, 45);
+		/* box-shadow: 0 0 5px rgba(0,0,0, .2), inset 0 0 5px rgba(0,0,0, .1); */
+    }	
+    100% {
+		border-color: rgb(226, 1, 45);
+		/* box-shadow: 0 0 20px rgba(0,0,0, .6), inset 0 0 10px rgba(0,0,0, .4); */
+    }
+}
+@-o-keyframes glow {
+    0% {
+		border-color: rgb(226, 1, 45);
+		/* box-shadow: 0 0 5px rgba(0,0,0, .2), inset 0 0 5px rgba(0,0,0, .1); */
+    }	
+    100% {
+		border-color: rgb(9, 16, 34);
+		/* box-shadow: 0 0 20px rgba(0,0,0, .6), inset 0 0 10px rgba(0,0,0, .4); */
+    }
+}
+@-ms-keyframes glow {
+    0% {
+		border-color: rgb(9, 16, 34);
+		/* box-shadow: 0 0 5px rgba(0,0,0, .2), inset 0 0 5px rgba(0,0,0, .1); */
+    }	
+    100% {
+		border-color: rgb(9, 16, 34);
+		/* box-shadow: 0 0 20px rgba(0,0,0, .6), inset 0 0 10px rgba(0,0,0, .4); */
+    }
+}
+@keyframes glow {
+    0% {
+		border-color: rgb(9, 16, 34);
+		/* box-shadow: 0 0 5px rgba(0,0,0, .2), inset 0 0 5px rgba(0,0,0, .1); */
+    }	
+    100% {
+		border-color: rgb(9, 16, 34);
+		/* box-shadow: 0 0 20px rgba(0,0,0, .6), inset 0 0 10px rgba(0,0,0, .4); */
+    }
+}
+
+.submit-button {
+color: rgb(226, 1, 45);
+background: #fff;
+}
+
+.submit-button::before {
+color: rgb(226, 1, 45);
+background: rgb(9, 16, 34);
+}
+
+.submit-button:hover {
+color: rgb(226, 1, 45);
+background: rgb(9, 16, 34);
+}
+
+.submit-button-2 {
+color: rgb(226, 1, 45);
+background: #fff;
+}
+
+.submit-button-2::before {
+color: #fff;
+background: rgb(9, 16, 34);
+}
+
+.submit-button-2:hover {
+color: #000;
+background: rgb(0, 0, 0);
+}
+
+.owl-page.active span {    
+background: rgb(9, 16, 34);
+}
+
+.expand { 
+background: rgb(9, 16, 34);
+}
+
+/* Styleswitch [DEMO only] */
+.options-head {
+background: #091022;
+}
