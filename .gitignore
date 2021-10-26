@@ -1,0 +1,5 @@
+server/resources/[mods]
+artifacts
+server/cache
+txData
+txData\default
